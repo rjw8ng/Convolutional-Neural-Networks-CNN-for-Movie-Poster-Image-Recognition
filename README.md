@@ -33,13 +33,13 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9879408/
 
 # Technical Plan:
 
-The inputs for the CNN model are the movie poster images, which are normalized to be the same dimensions. The outputs would be a multi classification where only genres whose softmax output is over a certain threshold are not zeroed out. Then, each genre who meets the threshold is given a value of 1 / (# of genres past threshold). This will allow our loss function, MSE, to minimize loss. 
+The inputs for the CNN model are the movie poster images, which are normalized to be the same dimensions. The outputs would be a multi classification where only genres whose softmax output is over a certain threshold are not zeroed out. Then, each genre who meets the threshold is given a value of 1 / (# of genres past threshold). This will allow our loss function to minimize loss. 
 
-We could use a number of different ImageNet winning recognition: VGG, ResNet, AlexNet. ResNet performs the best in image recognition out of these while also being the most efficient
+We could use a number of different ImageNet winning recognition: VGG, ResNet, AlexNet. ResNet performs the best in image recognition out of these while also being the most efficient. To observe the results of ResNet, we will be using both ResNet50 and ResNet152. In addition, a DenseNet model will be created to diversify our model group.
 
-For loss functions, we could use either Mean Square Error, Cross Entropy or Log Loss. 
+For the loss functions, we are using Binary Cross Entropy Loss with Logit transformation for multilabel classification. 
 
 # Evaluation Plan:
 
-We plan to run a CNN model with 10 - 50 epochs with three different models. Each of these models will use different activation functions, number of pooling layers, number of hidden layers, and dropout. By having a diverse range of factors, we can observe what combination will lead to the best model. With each model, we will observe accuracy and make changes to the model to increase accuracy. We plan on evaluating the machine learning algorithm through two main ways: accuracy and processing speed. We want a model that will provide the best result but also be able to get to that result in a reasonable time.
+We plan to run a CNN model with 10 - 50 epochs with three different models. With each model, we will observe accuracy and make changes to the model to increase accuracy. We plan on evaluating the machine learning algorithm through two main ways: accuracy and processing speed. We want a model that will provide the best result but also be able to get to that result in a reasonable time.
 
