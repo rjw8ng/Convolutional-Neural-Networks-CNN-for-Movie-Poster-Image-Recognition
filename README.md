@@ -1,4 +1,4 @@
-# Convolutional Neural Networks for Movie Poster Image Recognition
+# Convolutional Neural Networks (CNN) for Movie Poster Image Recognition
 
 Team Members: Brennan Danek (bd4bk), Theodore Thormann (nbx5kp) , Royal Wang (rjw8ng)
 
