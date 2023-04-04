@@ -5,8 +5,9 @@ Team Members: Brennan Danek (bd4bk), Theodore Thormann (nbx5kp) , Royal Wang (rj
 ## Folder structure
 * `Data`: Contains SamplePosters, All Posters, and csv files with poster lists
 
-* `Models`:
-  *
+* `Models`
+  *`Deep Learning Final Project (Full Posters)`:
+  *`Deep Learning Final Project (Sample Posters)`:
 
 ## Motivation:
 
