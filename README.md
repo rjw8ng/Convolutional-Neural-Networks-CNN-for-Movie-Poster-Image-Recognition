@@ -2,6 +2,12 @@
 
 Team Members: Brennan Danek (bd4bk), Theodore Thormann (nbx5kp) , Royal Wang (rjw8ng)
 
+## Folder structure
+* `Data`: Contains SamplePosters, All Posters, and csv files with poster lists
+
+* `Models`:
+  *
+
 ## Motivation:
 
 The motivation behind using movie posters to determine movie genres with deep learning is to develop an automated and efficient method for classifying movies into different genres. Movie posters are designed to convey information about the movie and attract an audience. One important piece of information that movie posters could possibly convey would be the style or genre of the movie. If we can see if a movie’s genre can be predicted by the movie’s poster, then using a movie poster as data may be helpful in other neural network processes like recommendation algorithms.
