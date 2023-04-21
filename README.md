@@ -48,5 +48,5 @@ For the loss functions, we are using Binary Cross Entropy Loss with Logit transf
 
 ## Evaluation Plan:
 
-We plan to run a CNN model with 10 - 50 epochs with three different models. With each model, we will observe accuracy and make changes to the model to increase accuracy. We plan on evaluating the machine learning algorithm through two main ways: accuracy and processing speed. We want a model that will provide the best result but also be able to get to that result in a reasonable time.
+We plan to run a CNN model with 5 - 10 epochs with three different models. With each model, we will observe accuracy and make changes to the model to increase accuracy. We plan on evaluating the machine learning algorithm through two main ways: accuracy and processing speed. We want a model that will provide the best result but also be able to get to that result in a reasonable time.
 
