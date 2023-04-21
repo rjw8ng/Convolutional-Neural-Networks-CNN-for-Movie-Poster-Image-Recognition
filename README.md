@@ -42,7 +42,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9879408/
 
 The inputs for the CNN model are the movie poster images, which are normalized to be the same dimensions. The outputs would be a multi classification where only genres whose softmax output is over a certain threshold are not zeroed out. Then, each genre who meets the threshold is given a value of 1 / (# of genres past threshold). This will allow our loss function to minimize loss. 
 
-We could use a number of different ImageNet winning recognition: VGG, ResNet, AlexNet. ResNet performs the best in image recognition out of these while also being the most efficient. To observe the results of ResNet, we will be using both ResNet50 and ResNet152. In addition, a DenseNet model will be created to diversify our model group.
+We could use a number of different ImageNet winning recognition: VGG, ResNet, AlexNet. ResNet performs the best in image recognition out of these while also being the most efficient. To observe the results of ResNet, we will be using both ResNet50 and ResNet18. In addition, a DenseNet model will be created to diversify our model group.
 
 For the loss functions, we are using Binary Cross Entropy Loss with Logit transformation for multilabel classification. 
 
