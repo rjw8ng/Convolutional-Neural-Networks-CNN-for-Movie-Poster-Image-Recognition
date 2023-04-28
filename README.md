@@ -44,7 +44,11 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9879408/
 
 ## Technical Plan:
 
-The inputs for the CNN model are the movie poster images, which are normalized to be the same dimensions. The outputs would be a multi classification where only genres whose softmax output is over a certain threshold are not zeroed out. Then, each genre who meets the threshold is given a value of 1 / (# of genres past threshold). This will allow our loss function to minimize loss. 
+The inputs for the CNN model are the movie poster images, which are normalized to be the same dimensions. The outputs would be a multi classification where only genres whose softmax output is over a certain threshold are not zeroed out. Our evaluation metrics are as follows:
+
+* Overall precision (OP): Measure of the proportion of correctly predicted positive instances out of all predicted positive instances. It can be calculated by dividing the number of correctly predicted positive instances by the sum of instances predicted as positive but are actually negative.
+* Overall recall (OR): Measure of the proportion of correctly predicted positive instances out of all actual positive instances. It can be calculated by dividing the number of true positives by the sum of instances predicted as negative but are actually positive.
+* Overall F1 score (OF1): Harmonic mean of precision and recall, and it provides a balanced evaluation of both metrics. It can be calculated as 2 * (precision*recall) / (precision+recall)
 
 We could use a number of different ImageNet winning recognition: VGG, ResNet, AlexNet. ResNet performs the best in image recognition out of these while also being the most efficient. To observe the results of ResNet, we will be using both ResNet50 and ResNet18. In addition, a DenseNet model will be created to diversify our model group.
 
