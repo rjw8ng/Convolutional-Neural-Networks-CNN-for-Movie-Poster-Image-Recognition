@@ -17,18 +17,22 @@ In addition, using movie posters for genre classification has practical applicat
 
 ## Dataset:
 
-The dataset contains information on movie posters and their respective genres. The dataset contains a total of 7,748 movie posters, each with a corresponding genre label. The dataset is intended to be used for machine learning tasks, such as image classification or genre prediction based on movie posters.
+The data set is from Kaggle, a platform for data science and machine learning competitions where companies or individuals can host challenges. The data set contains information on movie posters and their respective genres. Kaggle provides two files: an image data file and a movie CSV file. The posters themselves are high-quality images in JPEG format, with varying sizes and aspect ratios. The data set also includes a CSV file containing the image filenames marked with a movie ID and their corresponding genre labels. The original data set contains around 40,000 movie posters, each with corresponding genre labels. The data set is intended to be used for machine learning tasks, such as image classification or genre prediction based on movie posters.
 
 The dataset includes the following features:
 
-* Poster_Path: a string representing the file path of the movie poster image
+* imdbId: a numeric string representing the Id associated with the film pulled from the film website
+* imdb Link: a URL to the associated film's IMDB page
+* Title: the title of the movie and the year of its release
+* IMDB Score: the audience rating from
 * Genre: a string representing the genre(s) of the movie, with multiple genres separated by a pipe (|) symbol
+* Poster_Path: a string representing the file path of the movie poster image
 
-There are 17 movie genres: action, adventure, animation, comedy, crime, documentary, drama, family, fantasy, history, horror, music, mystery, romance, science fiction, thriller, and war.
+There are 28 unique movie genres in the original data set: Action, Adult, Adventure, Animation, Biography, Comedy, Crime, Documentary, Drama, Family, Fantasy, Film-Noir, Game-Show, History, Horror, Music, Musical, Mystery, News, Reality-TV, Romance, Sci-F, Short, Sport, Talk-Show, Thriller, War, Western.
 
-The genre labels were assigned based on data available on IMDb and TMDb websites and may not accurately represent the actual genres of the movies. Additionally, some movie posters may contain multiple genres, while others may not have any genre information available.
+The genre labels were assigned based on data available on IMDb and TMDb websites and may not accurately represent the actual genres of the movies. Additionally, some movie posters may contain multiple genres, while others may not have any genre information available. Each movie had between one to three different unique genres.
 
-The dataset is from Kaggle:
+The dataset from Kaggle:
 https://www.kaggle.com/datasets/neha1703/movie-genre-from-its-poster
 
 ## Related Work:
