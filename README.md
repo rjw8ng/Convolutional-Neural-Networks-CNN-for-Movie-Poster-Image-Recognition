@@ -1,6 +1,6 @@
 # Convolutional Neural Networks (CNN) for Movie Poster Image Recognition
 
-Team Members: Brennan Danek (bd4bk), Theodore Thormann (nbx5kp) , Royal Wang (rjw8ng)
+Team Members: Royal Wang (rjw8ng), Brennan Danek (bd4bk), Theodore Thormann (nbx5kp)
 
 ## Folder structure
 * `Data`: Contains SamplePosters, All Posters, and csv files with poster lists
