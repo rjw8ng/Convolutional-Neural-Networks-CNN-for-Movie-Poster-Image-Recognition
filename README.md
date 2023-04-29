@@ -58,4 +58,4 @@ We plan to run a CNN model with 5 - 10 epochs with three different models. With 
 
 ## Final Paper:
 
-[Convolutional Neural Networks for Movie Poster Image Recognition](file:///C:/Users/royal/Downloads/Convolutional_Neural_Networks_for_Movie_Poster_Image_Recognition.pdf)
+[Convolutional Neural Networks for Movie Poster Image Recognition](https://github.com/theodore-thormann/DS6050_FinalProject/blob/main/Convolutional_Neural_Networks_for_Movie_Poster_Image_Recognition.pdf)
