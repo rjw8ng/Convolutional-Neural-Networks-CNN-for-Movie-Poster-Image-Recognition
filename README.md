@@ -8,6 +8,8 @@ Team Members: Brennan Danek (bd4bk), Theodore Thormann (nbx5kp) , Royal Wang (rj
 * `Test Models`
   * `Deep Learning Final Project (Full Posters)`: CNN model using all poster data
   * `Deep Learning Final Project (Sample Posters)`: CNN model using sample poster data (subset)
+*
+* `Deep Learning Final Project (Final).ipynb`
 
 ## Motivation:
 
